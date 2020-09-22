@@ -1,0 +1,40 @@
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    background-image: url(187244.jpg);
+    /*background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    color: white;
+}
+#container{
+flex: 0 0 70%;
+text-align: center;
+border: 3px solid grey;
+padding: 1rem;
+font-weight: bolder;
+box-shadow: 2px 2px 10px 1px whitesmoke;
+
+}
+#Zero{
+    font-size: 100px;
+}
+.btn {
+background: whitesmoke;
+font-size: 30px; 
+margin: 0.5rem 0.25rem;
+border: 3px solid mediumseagreen;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border-radius:  5px; 
+box-shadow: 2px 2px 10px 1px whitesmoke;
+outline: none;
+}
+.btn:hover{
+    background-color: #76cc44;
+    color: wheat;
+}
+.btn:active{
+    box-shadow: none;
+}

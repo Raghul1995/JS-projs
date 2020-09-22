@@ -1,0 +1,40 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    background-color: aqua;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    background: blanchedalmond;
+    text-align: center;
+    padding: 5rem;
+    border-radius: 7px;
+    flex: 0 0 80%;
+}
+button{
+    border-radius: 7px;
+    color:black;
+    background-color: tomato;
+    border: 3px solid tomato;
+    outline: none;
+
+}
+button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+input[type = text]{
+    border-radius: 7px;
+    box-sizing: content-box;
+    margin: 1 rem auto;
+    font-size: 1 rem;
+    border: 3px solid cyan;
+    outline: none;
+}
+input[type = text]:focus{
+    box-shadow: 0 0 10px darkgrey;
+}
+
+
